@@ -6,6 +6,8 @@ This pack includes two core nodes:
 1. **Ultimate Model Checker** – Identifies model variants and filters processing pipelines using advanced multi-keyword logic.
 2. **Memory Guard Checker** – Monitors system memory (RAM) and graphics memory (VRAM) usage at specific execution steps with zero external dependencies.
 
+<img src='./img/screenshot-ultimateModelChecker-test-minimax.jpg'/>
+
 ---
 
 ## 📦 Installation & Setup
@@ -54,7 +56,7 @@ A comprehensive, production-grade custom node for ComfyUI designed to analyze an
 * **Recursive Model Inspection**: Automatically unwraps up to 3 layers of object wrappers to access raw inner properties (`model_type`, `model_config`, `latent_format`).
 * **Upstream Filename Resolution**: Traces prompt lineage to extract the actual loaded filename (`unet_name` or `ckpt_name`) from preceding nodes via `unique_id`.
 * **Advanced Architecture Grouping**: Classifies models into 4 distinct core groups based on mathematical design:
-  1. **`flow`** (Flow Matching / SD3 / Flux / Cosmos / Wan / Hunyuan)
+  1. **`flow`** (Flow Matching / SD3 / Flux / Cosmos / Wan / Hunyuan / MiniMax)
   2. **`lcm`** (Latent Consistency / Speed Distilled / Hyper-SD / TCD)
   3. **`v`** (Velocity Prediction / SVD / CosXL)
   4. **`eps`** (Traditional Epsilon Noise Prediction - auto-detects SD1.5 vs SDXL architectures).
