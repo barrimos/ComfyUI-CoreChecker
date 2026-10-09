@@ -43,7 +43,7 @@ __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
 # 🛑 1. ComfyUI Ultimate Model Checker
 
 <a href='./img/workflow-ulltimateModelChecker.png' download>download workflow</a>
-<img src='./img/screenshot-ultimateModelChecker.jpg'/>
+<img src='./img/screenshot-ultimateModelChecker-error-execution.jpg'/>
 
 A comprehensive, production-grade custom node for ComfyUI designed to analyze and identify diffusion model architectures dynamically. It processes models recursively to extract metadata, classifies them into distinct mathematical diffusion groups, and runs complex multi-condition keyword routing (**AND/OR logic**) to control your workflow pipeline.
 
