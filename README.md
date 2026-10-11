@@ -236,7 +236,8 @@ When a threshold is breached, the node throws an structured `ValueError` that in
 
 # 🛡️ 3. ComfyUI Safe Memory Brake (Smart API-Driven Monitor)
 
-<img src='./img/screenshot-safeMemoryBrake-active.jpg'/>
+<a href='./img/workflow-safeBrakeNodeChecker.png'>download workflow</a>
+<img src='./img/screenshot-safeBrakeNodeChecker.jpg'/>
 
 An intelligent, non-intrusive background execution guardian for ComfyUI. Unlike passive roadblock nodes that check resources strictly at their specific step, the **Safe Memory Brake** operates as a continuous background daemon thread. By analyzing both dedicated hardware states and Windows memory compression systems, it proactively triggers an execution halt via ComfyUI's internal HTTP API mapping right as limits are breached, completely isolating the main Python runtime from crashes while maximizing image processing continuity.
 
@@ -263,6 +264,8 @@ An intelligent, non-intrusive background execution guardian for ComfyUI. Unlike 
 ---
 
 ## 💡 How it Works Under the Hood
+
+<img src='./img/screenshot-safeBrakeNode-API-Interrupt.jpg'/>
 
 The background monitor implements a progressive conditional state logic matrix to evaluate system stability:
 
