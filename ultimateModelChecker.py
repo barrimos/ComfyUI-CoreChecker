@@ -143,5 +143,3 @@ class UltimateModelChecker:
                 
         return (is_match, file_name, group_info)
 
-NODE_CLASS_MAPPINGS = {"UltimateModelChecker": UltimateModelChecker}
-NODE_DISPLAY_NAME_MAPPINGS = {"UltimateModelChecker": "Ultimate Model Checker"}
